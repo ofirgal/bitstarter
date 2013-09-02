@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>MutualFun</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -99,29 +98,16 @@
         color: #ccccff;
       }
 
- /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
- div.addthis_toolbox {
-  width:260px;
-  margin: 0 auto;
- }
-	
+     /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+     div.addthis_toolbox {
+      width: 174px;
+      margin: 0 auto;
+     }
     </style>
-  </head>
-  <body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-43021505-1', 'amazonaws.com');
-  ga('send', 'pageview');
-
-
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-43021505-1']);
+  _gaq.push(['_setAccount', 'UA-42843113-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -131,7 +117,9 @@
   })();
 
 </script>
-</script>
+  </head>
+  <body>
+
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -148,6 +136,7 @@
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="/orders">Orders</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -164,19 +153,19 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product: Development Version</h1>
+          <h1>Mutual Fun</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">One sentence description.</p>
+          <p class="lead">Professional Financial Portfolio Analysis & Optimization Tools</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/PLT3uiy.jpg">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -216,29 +205,23 @@
           </div>
           <div class="row-fluid">
           <div class="span6 offset3 order">
-            <a class="coinbase-button" data-button-text="Preorder with Bitcoins" data-code="f17831c45f5539727b472f20e8709b3e" data-button-style="donation_large" href="https://coinbase.com/checkouts/f17831c45f5539727b472f20e8709b3e">Preorder</a>
-	    <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-		<!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <!-- button class="btn btn-success btn-large">Preorder</button> -->
-          </div>
+	    <a class="coinbase-button" data-button-style="custom_large" data-button-text="Preorder with Bitcoin" data-code="13b56883764b54e6ab56fef3bcc7229c" href="https://coinbase.com/checkouts/13b56883764b54e6ab56fef3bcc7229c">Preorder with Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+	  </div>
           </div>
           <div class="row-fluid">
           <div class="span8 offset2 social">
-<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-<a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_2"></a>
-<a class="addthis_button_preferred_3"></a>
-<a class="addthis_button_preferred_4"></a>
-<a class="addthis_button_compact"></a>
-<a class="addthis_counter addthis_bubble_style"></a>
-</div>
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52017f7a33bd5239"></script>
-<!-- AddThis Button END -->
-
-
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+              <a class="addthis_button_preferred_1"></a>
+              <a class="addthis_button_preferred_2"></a>
+              <a class="addthis_button_compact"></a>
+              <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+	     <script type="text/javascript">var addthis_config = 
+	      {"data_track_addressbar":true};</script>
+	     <script type="text/javascript" 
+ 		     src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
+            <!-- AddThis Button END -->
           </div>
           </div>
         </div>
@@ -251,21 +234,21 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/5SY2MGV.jpg">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            Welcome to MutualFun crowedfunding page.  
+            MutualFun is an online platform that offers professional grade  
+            state-of-the-art tools to optimize and analyze your investments 
+            with set of tools that were only available to large investment firms.
+            The vision of the company is to provide a unique set of fully 
+            customized tools, that will let you automate your analytics  
+            process and optimize your investments with the ability to process 
+            large amounts of data. We aim to launch in the next couple of 
+            months. The first version will provide the user with the ability
+            to instantly optimize and re-balace a portfolio. Based on the 
+            Markovitz mean-variance optimization, the platform will let  
           </p>
         </div>
       </div>
@@ -273,21 +256,21 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            the user add the assets that in the portfolio, while applying
+            modern approach to assess the assets returns by utilizing   
+            newer technologies and market data mining. 
+            Users will be able to project assets return by harversting
+	    financial analysts 1-yr target, news articles analytics,
+	    social media sentiment, with full ability to tweak the data 
+	    for a fined-tune vision and 'what-if' scenarios.
+	    Part of the tools will be free, with premium subscription features.
+            We are asking for your support in order to launch the platform  
+            and continue the development. Donations larger than $50 will 
+            guarantee a year subscription to the premium services. 
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/uqRtaLq.jpg">
         </div>
       </div>
 
@@ -341,6 +324,16 @@
         </div>
       </div>
     </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42843113-1', 'bitstart.net');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
-
